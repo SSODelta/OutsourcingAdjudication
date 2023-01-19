@@ -27,14 +27,15 @@ def cmap():
 # Plot heatmap
 cmap = sns.color_palette("viridis", as_cmap=True)
 ax=sns.heatmap(X, vmin=0, vmax=1, cmap=cmap)
-ax.set_xlabel("Number of rounds",fontsize=25)
-ax.set_ylabel("Percentage of well-informed jurors (ρ)",fontsize=25)
+#ax.set_xlabel("Number of rounds",fontsize=25)
+ax.set_xlabel("Intended fraction of agents voting for ground truth",fontsize=25)
+ax.set_ylabel("Percentage of well-informed agents (ρ)",fontsize=25)
 ax.set_title('Correctness of Adjudication',fontsize=30)
 #ax.set(xlabel="Size of reward (ω)", ylabel="Percentage of well-informed jurors (ρ)",title='Correctness of Adjudication')
 #ax.set(xlabel="Initial effort (ε)", ylabel="Percentage of well-informed jurors (ρ)",title='Correctness of Adjudication')
 
 resy, resx = X.shape
-xrange = [1,100]
+xrange = [50,100]
 #xrange = [0,5]
 #xrange = [0,250]
 
