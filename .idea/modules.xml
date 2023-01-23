@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Adjudication Sim.iml" filepath="$PROJECT_DIR$/Adjudication Sim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OutsourcingAdjudication.iml" filepath="$PROJECT_DIR$/OutsourcingAdjudication.iml" />
     </modules>
   </component>
 </project>
